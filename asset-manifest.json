@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pig-game/static/css/main.4119b7d2.css",
+    "main.js": "/pig-game/static/js/main.8b2205cc.js",
+    "static/js/453.f3deb469.chunk.js": "/pig-game/static/js/453.f3deb469.chunk.js",
+    "index.html": "/pig-game/index.html",
+    "main.4119b7d2.css.map": "/pig-game/static/css/main.4119b7d2.css.map",
+    "main.8b2205cc.js.map": "/pig-game/static/js/main.8b2205cc.js.map",
+    "453.f3deb469.chunk.js.map": "/pig-game/static/js/453.f3deb469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4119b7d2.css",
+    "static/js/main.8b2205cc.js"
+  ]
+}
