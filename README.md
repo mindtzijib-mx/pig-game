@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Pig Game - React Version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React conversion of the original JavaScript Pig Game. The game maintains the same functionality and visual design as the original, but is now built using React components and hooks.
 
-## Available Scripts
+## Game Rules
 
-In the project directory, you can run:
+- Two players take turns rolling a dice
+- Each roll adds to the current player's current score
+- If a player rolls a 1, they lose their current score and the turn passes to the other player
+- Players can choose to "Hold" their current score, adding it to their total score
+- The first player to reach 100 points wins
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Modern React Architecture**: Built with functional components and React hooks
+- **State Management**: Uses useState for game state management
+- **Component-Based Design**: Modular components for Player, Dice, and Game Controls
+- **Responsive Design**: Maintains the original beautiful UI design
+- **Accessibility**: Proper button states and disabled functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
 
-### `npm test`
+- **App.js**: Main game logic and state management
+- **Player.js**: Individual player display component
+- **Dice.js**: Dice image display component
+- **GameControls.js**: Game control buttons component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run
 
-### `npm run build`
+1. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Game Controls
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **🔄 New game**: Resets the game to initial state
+- **🎲 Roll dice**: Rolls the dice and adds to current score (unless 1 is rolled)
+- **📥 Hold**: Adds current score to total score and switches players
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Original vs React Version
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The React version maintains 100% feature parity with the original JavaScript version while providing:
 
-## Learn More
+- Better code organization with component separation
+- Improved maintainability with React hooks
+- Enhanced user experience with proper button states
+- Modern development practices
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React 19.1.0
+- CSS3 with modern styling
+- HTML5 semantic elements
+- JavaScript ES6+ features
